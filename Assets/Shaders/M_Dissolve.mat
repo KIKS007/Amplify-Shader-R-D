@@ -9,7 +9,7 @@ Material:
   m_Name: M_Dissolve
   m_Shader: {fileID: 4800000, guid: 51895c40fafe8804c9c2af287e79ae8c, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 0
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -56,8 +56,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.5
-    - _DissolveAmount: 0.365
+    - _DissolveAmount: 0.455
     - _Float0: 0.5
+    - _MovementSpeed: 0.5
     - _RotateSpeed: 0.1
     - _TransAmbient: 0.2
     - _TransDirect: 1
@@ -68,5 +69,6 @@ Material:
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 0.3820755, g: 0.73066854, b: 1, a: 0}
+    - _MovementDirection: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _RotateDirection: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Vector0: {r: 0.5, g: 0.5, b: 0, a: 0}
