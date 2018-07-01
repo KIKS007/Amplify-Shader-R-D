@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=15401\n1921;23;1678;986;1565;734.3472;1.6;True;False\nNode;AmplifyShaderEditor.FunctionInput;16;-718.249,-254.8959;Float;False;Texture
+    Object;9;0;False;1;0;SAMPLER2D;0;False;1;SAMPLER2D;0\nNode;AmplifyShaderEditor.TextureCoordinatesNode;2;-484.7093,-141.1021;Float;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.Vector2Node;4;-489.3757,9.230957;Float;False;Property;_MovementDirection;Movement
+    Direction;1;0;Create;True;0;0;False;0;0.5,0.5;0.5,0.5;0;3;FLOAT2;0;FLOAT;1;FLOAT;2\nNode;AmplifyShaderEditor.RangedFloatNode;1;-416.0762,370.9319;Float;False;Property;_MovementSpeed;Movement
+    Speed;0;0;Create;True;0;0;False;0;0.5;0.5;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.TimeNode;10;-645.249,161.1041;Float;True;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.SamplerNode;15;-61.24902,-256.8959;Float;True;Property;_TextureSample0;Texture
+    Sample 0;2;0;Create;True;0;0;False;0;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;5;-235.8764,184.7319;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.PannerNode;6;-213.0872,18.176;Float;False;3;0;FLOAT2;0,0;False;2;FLOAT2;0,0;False;1;FLOAT;1;False;1;FLOAT2;0\nNode;AmplifyShaderEditor.FunctionOutput;19;303.751,4.104126;Float;False;False;B;3;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;296.4,-261.4;Float;False;True;RGBA;0;False;1;0;COLOR;0,0,0,0;False;1;COLOR;0\nNode;AmplifyShaderEditor.FunctionOutput;20;309.751,93.10413;Float;False;False;A;4;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;17;295.751,-168.8959;Float;False;False;R;1;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;18;303.751,-74.89587;Float;False;False;G;2;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;2;2;16;0\nWireConnection;15;0;16;0\nWireConnection;15;1;6;0\nWireConnection;5;0;10;2\nWireConnection;5;1;1;0\nWireConnection;6;0;2;0\nWireConnection;6;2;4;0\nWireConnection;6;1;5;0\nWireConnection;19;0;15;3\nWireConnection;0;0;15;0\nWireConnection;20;0;15;4\nWireConnection;17;0;15;1\nWireConnection;18;0;15;2\nASEEND*/\n//CHKSM=1ABF14FAD549C19F7AC0307B384F69F73C92B77D"
+  m_functionName: 
+  m_description: Rotate a texture based on a direction and speed
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 1
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesFoldout: 0
+  m_nodeCategory: 0
+  m_customNodeCategory: IronEqual
+  m_previewPosition: 0
